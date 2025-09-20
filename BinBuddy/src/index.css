@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+.btn-primary {
+  @apply bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition;
+}
+
+.input-select, .input-textarea, .input-text {
+  @apply border border-gray-300 rounded p-2 w-full focus:outline-none focus:ring-2 focus:ring-blue-400;
+}
